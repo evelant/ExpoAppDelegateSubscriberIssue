@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "appdelegate-subscriber-issue",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "~4.6.3"
+  },
+  "packageManager": "yarn@3.2.0"
+}

@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "app-delegate-subscriber-example",
+    "slug": "AppDelegateSubscriberExample",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "plugins": [
+      [
+        "expo-clevertap-react-native",
+        {
+          "cleverTapAccountId": "123-123-1234",
+          "cleverTapToken": "123-123",
+          "cleverTapRegionCode": "EU",
+          "cleverTapAndroidUseGoogleAdId": true
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.test.AppDelegateSubscriberIssue"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
